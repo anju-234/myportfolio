@@ -1,0 +1,112 @@
+.img-sec {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.intro-img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+}
+
+.img-sec::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  opacity: 0.8;
+}
+
+.hero {
+  height: 100vh;
+  width: 100%;
+  position: relative; 
+  padding-bottom: 80px; 
+}
+
+
+.hero .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+}
+
+
+.hero .content h1 {
+  font-size: 4rem;
+  padding: 0.6rem 0 1.5rem;
+}
+
+
+.hero .content p {
+  font-size: 1.4rem;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+
+.content .btn {
+  margin: 1rem 0.2rem;
+}
+
+
+@media screen and (max-width: 768px) {
+ 
+  .hero {
+    height: calc(100vh - 80px); 
+    padding-bottom: 0;
+  }
+
+  
+  .hero .content {
+    padding: 0 1rem;
+  }
+
+  .hero .content h1 {
+    font-size: 2rem; 
+    padding: 0.6rem 0 1rem;
+  }
+
+  .hero .content p {
+    font-size: 1rem; 
+  }
+
+  .content .btn {
+    padding: 0.8rem 1.6rem; 
+  }
+
+  
+  
+}
+
+
+@media screen and (max-width: 480px) {
+  
+  .hero {
+    height: calc(100vh - 70px); 
+  }
+
+  .hero .content h1 {
+    font-size: 1.5rem; 
+  }
+
+  .hero .content p {
+    font-size: 0.9rem; 
+  }
+
+  .content .btn {
+    font-size: 0.9rem;
+    padding: 0.8rem 1.4rem;
+  }
+
+ 
+ 
+}

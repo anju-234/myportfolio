@@ -1,0 +1,68 @@
+.project-card {
+  width: 18rem;
+  background: #1a1a1a;  
+  color: white; 
+  border: 2px solid rgba(0, 123, 255, 0.5); 
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.4); 
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0.3s ease-in-out;
+  padding: 10px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+/* Hover Effect */
+.project-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 123, 255, 0.7);
+}
+
+/* Image Styling */
+.project-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+/* Title & Text */
+.project-card .card-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.project-card .card-text {
+  font-size: 1rem;
+  color: #ddd;
+  margin-bottom: 12px;
+}
+
+/* Button Group */
+.Visit {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+/* Buttons */
+.Visit button {
+  flex: 1;
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background 0.3s ease-in-out;
+}
+
+.Visit button:hover {
+  background: #0056b3;
+}
+ 
+

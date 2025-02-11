@@ -1,0 +1,101 @@
+.footer {
+    width: 100%;
+    background-color: #111; 
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+  }
+  
+  .footer-container {
+    width: 90%;
+    max-width: 1200px;
+  }
+  
+  .get_in_touch {
+    margin-bottom: 1rem;
+  }
+  
+  .get_in_touch h4 {
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .get_in_touch p {
+    font-size: 1rem;
+    max-width: 500px;
+    margin: 0 auto;
+    opacity: 0.8;
+  }
+  
+  
+  .get_in_touch .btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.8rem 1.5rem;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s ease;
+  }
+  
+  
+  .footer_copyright {
+    font-size: 0.9rem;
+    opacity: 0.7;
+    margin-top: 1rem;
+  }
+  
+  /* Responsive Styling */
+  @media screen and (max-width: 768px) {
+    .footer {
+      padding: 1.5rem 1rem;
+    }
+  
+    .get_in_touch h4 {
+      font-size: 1.4rem;
+    }
+  
+    .get_in_touch p {
+      font-size: 0.9rem;
+    }
+  
+    .get_in_touch .btn {
+      font-size: 0.9rem;
+      padding: 0.7rem 1.3rem;
+    }
+  
+    .footer_copyright {
+      font-size: 0.8rem;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .footer {
+      padding: 1rem;
+    }
+  
+    .get_in_touch h4 {
+      font-size: 1.2rem;
+    }
+  
+    .get_in_touch p {
+      font-size: 0.85rem;
+    }
+  
+    .get_in_touch .btn {
+      font-size: 0.85rem;
+      padding: 0.6rem 1.2rem;
+    }
+  
+    .footer_copyright {
+      font-size: 0.7rem;
+    }
+  }
+  
