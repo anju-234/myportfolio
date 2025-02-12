@@ -21,7 +21,7 @@ const projectData = [
     id: "3",
     name: "SI-calculator",
     desc: "The Simple Interest Calculator is a React-based web application that helps users quickly calculate simple interest based on principal amount, interest rate, and time period. It features a clean and responsive UI built with **Material UI**, ensuring a modern and user-friendly experience. The app dynamically updates the interest calculation and includes a reset functionality to clear inputs easily. With efficient state management using **React Hooks (`useState`)**, this project provides a seamless and interactive financial tool for users to compute interest effortlessly. 🚀",
-    img: "",
+    img: "Coffeeimage",
     github_link: "https://github.com/anju-234/Simple-interest-calculator",
     vercel_link: "https://simple-interest-calculator-azure.vercel.app/",
   },
