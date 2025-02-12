@@ -12,12 +12,22 @@
   text-align: center;
   margin: auto;
   margin-bottom: 20px;
+  flex-direction: column; 
 }
+
+
 
 /* Hover Effect */
 .project-card:hover {
   transform: scale(1.05);
   box-shadow: 0 6px 15px rgba(0, 123, 255, 0.7);
+}
+
+.project-card .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1; /* Makes sure all cards stretch equally */
 }
 
 /* Image Styling */
@@ -40,6 +50,9 @@
   font-size: 1rem;
   color: #ddd;
   margin-bottom: 12px;
+  min-height: 60px;
+  overflow: hidden;
+  
 }
 
 /* Button Group */
@@ -47,22 +60,10 @@
   display: flex;
   justify-content: space-between;
   gap: 10px;
+  gap: 10px;
+  margin-top: auto; /* Pushes buttons to the bottom */
 }
 
-/* Buttons */
-.Visit button {
-  flex: 1;
-  background: #007bff;
-  color: white;
-  border: none;
-  padding: 10px;
-  border-radius: 5px;
-  font-size: 1rem;
-  transition: background 0.3s ease-in-out;
-}
 
-.Visit button:hover {
-  background: #0056b3;
-}
- 
+
 

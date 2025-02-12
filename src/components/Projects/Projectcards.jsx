@@ -4,15 +4,14 @@ import { Card, Button } from "react-bootstrap";
 
 function ProjectCard({ project }) {
   const { id, name, desc, img, github_link, vercel_link } = project;
-
   const [showFullDesc, setShowFullDesc] = useState(false);
 
   return (
     <Card className="project-card" key={id}>
-      <Card.Img variant="top" src={img} />
-      <Card.Body>
-        <Card.Title>{name}</Card.Title>
-        <Card.Text>
+      <Card.Img variant="top" src={img} className="project-img" />
+      <Card.Body className="card-body">
+        <Card.Title className="card-title">{name}</Card.Title>
+        <Card.Text className="card-text">
           {showFullDesc ? desc : `${desc.slice(0, 50)}...`}
           <span
             className="toggle-text"
