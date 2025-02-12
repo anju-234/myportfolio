@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./ProjectCard.css";
+import "./Projectcard.css";
 import { Card, Button } from "react-bootstrap";
 
 function ProjectCard({ project }) {
