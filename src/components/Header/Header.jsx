@@ -51,7 +51,7 @@ function Header() {
         </li>
         <li>
           <a
-            href="/resume.pdf" // Replace with the actual path to your resume
+            href="./Anju resume.pdf" 
             download
             className="btn"
             style={{
